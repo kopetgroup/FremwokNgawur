@@ -6,3 +6,4 @@
 + container bawaan berupa fitur insert (kategori,subcat,kiwot)
 + tiap fitur tambahan disimpen di folder container
 + konfigurasi di folder cfg
++ db ne nganggo couchdb
