@@ -7,3 +7,6 @@
 + tiap fitur tambahan disimpen di folder container
 + konfigurasi di folder cfg
 + db ne nganggo couchdb
+
+Relax CUK:
+![alt text](http://couchdb.apache.org/image/logo@2x.png "CrotDb")
