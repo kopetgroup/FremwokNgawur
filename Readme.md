@@ -1,4 +1,4 @@
-## RizoaFrameWalk v1.0.0
+## DuduFremwok v1.0.0
 
 #### fitur:
 + Router GET|POST / get,post aja
