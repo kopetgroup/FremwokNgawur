@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteRule /([A-Za-z-]{2,4})/(.*)/(.*)/(.*)/(.*)/(.*).([a-z0-9]{3}|[a-z0-9]{4})$ http://%{HTTP_HOST}/i/$5/0/$2/$3/$4.$7 [P]
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]

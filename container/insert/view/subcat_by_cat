@@ -1,0 +1,10 @@
+{
+   "_id": "_design/subcat_by_cat",
+   "language": "javascript",
+   "views": {
+       "subcat_by_cat": {
+           "map": "function(doc) {\n  emit([doc.type,doc.parent],1);\n}",
+           "reduce": "_sum"
+       }
+   }
+}

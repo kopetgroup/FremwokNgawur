@@ -1,0 +1,10 @@
+{
+   "_id": "_design/by_type",
+   "language": "javascript",
+   "views": {
+       "by_type": {
+           "map": "function(doc) {\n if(doc.type){\n  emit([doc.type,doc.date],1);\n }\n}",
+           "reduce": "_count"
+       }
+   }
+}
